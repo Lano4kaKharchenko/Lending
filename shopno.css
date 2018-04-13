@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,500,500i|Montserrat|Roboto:400,400i,500,500i,700,700i');
+
+html, body {
+	height: 100%;	
+}
+body {
+	margin: 0;
+	/*font-family: 'Montserrat', serif;*/
+}
+.section {
+	display: inline-block;
+	padding: 65px 150px;
+	width: 100%;
+	max-width: 1140px;
+}
+header {
+vertical-align: middle;
+}
+.logo {
+	width: 113px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url(./logo.png);
+	border: 6px solid #170f1c;
+	background-position: 50% 50%;
+	padding: 14px 14px;
+	background-size: 85px;
+	display: inline-block;	
+}
+.burger {
+	padding-left: calc(100% - 200px);
+	width: 30px;	
+	display: inline-block;
+}
+.burger > div {
+	border-top: 4px solid grey;
+	padding-top: 7px;
+}
+
+/*.menu-1, .menu-2, .menu-3 {
+	width: 30px;
+	height: 4px;
+	background-color: #000000;
+	opacity: 0.6;
+	border-radius: 2px;
+	margin-top: 5px;
+	margin-left: 980px;
+}*/
+
+.shopno {
+	height: 805px;
+	background: #eff0f2;
+	opacity: 0.99;	
+}
+h1 {
+	top: 50%;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	font-size: 45px;
+	font-weight: 700;
+	color: #505050;
+	text-shadow: #cccdcf 3px 4px 2px;
+	letter-spacing: 2.7px;
+	/*text-transform: uppercase;*/
+	/*margin-top: 206px;*/
+}
+span {
+	background: #a9e6e2;
+}
+.main-text {
+	margin-top: 150px;
+}
+.contact {
+	display: inline-block;
+	padding: 20px, 48px;
+}
+a {
+	display: inline-block;
+	width: 136px;
+	height: 20px;
+	color: #606061;
+	font-size: 12px;
+	font-weight: 400;
+	text-decoration: none;
+	padding: 20px 48px;
+	border: 2px solid #777879;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 206px;
+	margin-left: 500px;
+}
+.orange_juice {
+	width: 121px;
+	height: 126px;
+	background-repeat: no-repeat;
+	background-image: url(./juice.png);
+	/*position: absolute;*/
+	margin-left: 967px;
+	/*margin-top: 74px;*/
+	display: inline-block;
+	padding-left: calc(100% - 967px);
+}
+
+
+.about_us {
+	height: 984px;
+	background: #f8fafa;
+}
+.title {
+	font-size: 38px;
+	text-align: center;
+	color: #323333;
+/*font-family: Montserrat;*/
+font-weight: 700;
+line-height: 28px;
+text-transform: uppercase;
+letter-spacing: 2.28px;
+}
+.text {
+	font-size: 18px;
+	text-align: center;
+	color: #848585;
+font-family: Merriweather;
+font-weight: 400;
+line-height: 28px;
+text-transform: uppercase;
+letter-spacing: 1.08px;
+
+}
+.content-about {
+	display: inline-block;
+	margin-top: 145px;
+}
+.about-slider {
+	/*width: 100%;*/
+	background: url(./slider1.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+
+}
+
+.slider {
+	max-width: 100%;
+}
+/*.content-about {
+	width: calc(100% - 49%);
+}*/
+
+.slider-radiobutton .radiobutton {
+	display: block;
+	margin: 40px, auto 0;
+}
+
+input [type="radio"] {
+	display: none;
+}
+label {
+	display: inline-block;
+}
+
+
+
+.about-text {
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+	text-align: justify;
+	color: #b8baba;
+	
+}
+.about-title {
+	text-transform: uppercase;
+	color: #646565;
+	font-size: 20px;
+	/*width: 406px;
+height: 17px;*/
+font-family: Merriweather;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 1.2px;
+}
+
+.about-title2 {
+	text-transform: uppercase;
+	color: #646565;
+	font-size: 17px;
+/*width: 254px;
+height: 17px;*/
+font-family: Merriweather;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 1.02px;
+}
+.slider-radiobutton {
+	width: 49%;
+	display: inline-block;
+
+}
+p {
+	font-size: 16px;
+	/*width: 469px;
+	height: 72px;*/
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0.8px;
+}
+
+
+
+
+
+
+/*.burger:before {
+height: 2px;
+letter-spacing: -2px;
+}
+.navigation {
+	list-style: none;
+	background: #111;
+	width: 1%;
+	height: 1%;
+	position: fixed;
+	z-index: 1;
+	float: right;
+}
+.site-wrap {
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #fff;
+	position: relative;
+	top: 0;
+	bottom: 100%;
+	right: 0;
+	z-index: 1;
+	 padding: 4em;
+ background-image: linear-gradient(135deg, 
+ rgb(254,255,255) 0%,
+ rgb(221,241,249) 35%,
+ rgb(160,216,239) 100%);
+ background-size: 200%;
+}
+.nav-trigger {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+label [for="nav-trigger"] {
+	position: fixed;
+	top: 15px;
+	right: 15px;
+	z-index: 2;
+}*/
+
